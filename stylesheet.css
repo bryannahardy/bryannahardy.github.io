@@ -1,0 +1,81 @@
+body {
+	background-image: url('background.jpg');
+}
+
+h1 {
+	text-align: center
+}
+
+p.intro {
+	text-align: center;
+	font-size: 160%;
+	font-weight: bold;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+table, th, td {
+	text-align: center;
+	font-weight: bold;
+	width: 50%;
+}
+
+th {
+	font-size: 150%;
+	background-color: #D6B484;
+}
+
+tr.rowtwo {
+	background-color: #CAAA80;
+}
+
+tr.rowthree {
+	background-color: #B89A72;
+}
+
+tr.rowfour {
+	background-color: #A68B67;
+}
+
+tr.rowfive {
+	background-color: #846F53;
+}
+
+.centerTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.size {
+	font-weight: bold;
+}
+
+ol.weight {
+	font-weight: bold;
+}
+
+.colorHover:hover {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.change{
+	color: red;
+}	
+
+div.middle {
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+* {
+	font-family: sans-serif;
+}
+
